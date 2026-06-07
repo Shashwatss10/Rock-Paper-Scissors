@@ -94,9 +94,7 @@ Rock-Paper-Scissors/
 
 1. Clone the repository
 
-```bash
 git clone https://github.com/Shashwatss10/rock-paper-scissors-game.git
-```
 
 2. Open the project folder
 
