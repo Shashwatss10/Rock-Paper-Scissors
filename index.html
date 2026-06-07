@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>✊ Rock • 📄 Paper • ✂️ Scissors</h1>
+      <button id="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <section class="choices">
+      <div class="choice" id="Rock">
+        <img src="Assets/Rock.png" alt="Rock" />
+        <p>Rock</p>
+      </div>
+      <div class="choice" id="Paper">
+        <img src="Assets/Paper.png" alt="Paper" />
+        <p>Paper</p>
+      </div>
+      <div class="choice" id="Scissors">
+        <img src="Assets/Scissors.png" alt="Scissors" />
+        <p>Scissors</p>
+      </div>
+    </section>
+
+    <section class="result-section">
+      <p id="msg">Play your move</p>
+      <p id="computer-choice">Computer chose: ?</p>
+    </section>
+
+    <section class="score-board">
+      <div class="score-card">
+        <h2 id="user-score">0</h2>
+        <p>You</p>
+      </div>
+      <div class="score-card">
+        <h2 id="comp-score">0</h2>
+        <p>Computer</p>
+      </div>
+    </section>
+
+    <section class="stats-container">
+      <div class="stat-card">
+        <h3 id="wins">0</h3>
+        <p>Wins</p>
+      </div>
+      <div class="stat-card">
+        <h3 id="losses">0</h3>
+        <p>Losses</p>
+      </div>
+      <div class="stat-card">
+        <h3 id="draws">0</h3>
+        <p>Draws</p>
+      </div>
+    </section>
+
+    <section class="last-round">
+      <h2>Last Round</h2>
+      <div class="round-info">
+        <p>
+          <strong>You chose:</strong>
+          <span id="last-user-choice">-</span>
+        </p>
+        <p>
+          <strong>Computer chose:</strong>
+          <span id="last-computer-choice">-</span>
+        </p>
+        <p>
+          <strong>Result:</strong>
+          <span id="last-result">-</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="buttons-container">
+      <button id="reset-btn">🔄 Reset Game</button>
+    </section>
+
+    <footer>
+      <p>Built with HTML, CSS & JavaScript</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
