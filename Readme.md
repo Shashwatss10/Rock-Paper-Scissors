@@ -12,14 +12,14 @@ A modern and interactive Rock Paper Scissors game built using **HTML**, **CSS**,
 
 ## 📸 Screenshot
 
+![Game Screenshot](Screenshot/rock-paper-scissors.png)
+
 ```text
 Stone-Paper-Scissors/
 │
 ├── Screenshot/
 │   └── rock-paper-scissors.png
 ```
-
-![Game Screenshot](Screenshots/rock-paper-scissors.png)
 
 ---
 
