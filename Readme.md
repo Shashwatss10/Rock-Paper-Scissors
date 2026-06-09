@@ -122,3 +122,6 @@ This project demonstrates:
 
 **Shashwat Sharma**
 
+GitHub: https://github.com/Shashwatss10
+
+LinkedIn: https://www.linkedin.com/in/shashwat-sharma-139b5a30b
