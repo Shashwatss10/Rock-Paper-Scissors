@@ -6,7 +6,7 @@ A modern and interactive Rock Paper Scissors game built using **HTML**, **CSS**,
 
 ## 🌐 Live Demo
 
-[Play the game](https://github.com/Shashwatss10/Rock-Paper-Scissors.git)
+[Play the game](https://shashwatss10.github.io/Rock-Paper-Scissors/)
 
 ---
 
